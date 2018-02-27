@@ -1,0 +1,31 @@
+body{
+  //padding: 50px;
+  background-color: #aabbcc;  
+  font:24px "Lucida Grande", Helvetica, Arial, sans-serif;
+  
+}
+h2, a, #android{
+  color: #000088;
+  font-family: fantasy;
+}
+p, h1 {
+    color: blue;
+    font-size: 36px;
+}
+
+.jumbotron{
+ background-color: lightgray;
+ background-image: url(../images/nature.jpg);
+ background-position: 0% 0%;
+ background-size: cover;
+ background-repeat: no-repeat;
+ opacity: 0.74;
+ color: lightgreen;
+ font-family: cursive;
+}
+container {
+    width: 100%;
+}
+.container{
+     width: 90%;
+}

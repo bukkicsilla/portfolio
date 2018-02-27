@@ -1,7 +1,10 @@
 <!doctype html>
 <html lang='en'>
     <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <!--<style>
             body{
                padding: 50px;
@@ -19,25 +22,42 @@
             }
         </style>-->
         
-        <title> Portfolio </title>
+        <title> My Portfolio </title>
         
     </head>
     <body>
-        <h1 align='center'> My Portfolio </h1>
-        <!--<p>I am ready to learn more!</p>
-        <h2>1 Corinthians 13:3-7</h2>
-        <p>Love is patient and kind. Love is not jealous or boastful or proud or rude. </p> 
-        <p>It does not demand its own way. It is not irritable, and it keeps no record of being wronged.</p>
-        <p>It does not rejoice about injustice but rejoices whenever the truth wins out.</p> 
-        <p>Love never gives up, never loses faith, is always hopeful, and endures through every circumstance.</p>
-        <a href='https://www.biblegateway.com/'>Bible online</a>
-        <hr />-->
+        <!--<header class="jumbotron">
+        <h1 align='center'>  </h1>
+        </header>-->
         
-        <h2> Android Apps</h2>
-        <a href='https://play.google.com/store/apps/details?id=org.education.rememberpattern&hl=en' target="_blank"> Remember Pattern Game</a><br/>
-        <a href='https://play.google.com/store/apps/details?id=org.photos.demoneyes&hl=en' target="_blank">DaemonEyes</a> <br/>
-        <a href='https://play.google.com/store/apps/details?id=org.magic.am&hl=en' target="_blank">Actor Movie Library</a> 
+        <div class="jumbotron img-rounded">
+            <container>
+         <p style="padding:110px;"></p>
+        <h1 align='center'> Portfolio by Csilla Bukki </h1>
+            </container>
+        </div>
         
+        
+        <div class="container">
+            <span id='android' align='left'> ANDROID APPS: </span><span style="color:#000088" class="glyphicon glyphicon-hand-right"></span>
+            <div class="row">
+              <div class="col-sm-4"> <a href='https://play.google.com/store/apps/details?id=org.photos.demoneyes&hl=en' target="_blank">DaemonEyes</a>
+              </div>
+              <div class="col-sm-4"><a href='https://play.google.com/store/apps/details?id=org.education.rememberpattern&hl=en' target="_blank"> Remember Pattern Game</a> </div>
+              <div class="col-sm-4"><a href='https://play.google.com/store/apps/details?id=org.magic.am&hl=en' target="_blank">Actor Movie Library</a> 
+                </div>    
+            </div>
+            <div class="row">
+              <div class="col-sm-4"> <a href="https://github.com/bukkicsilla/DaemonEyes" target="_blank"><img src="images/daemoneyes.png" class="img-circle" alt="Daemon Eyes"/>
+                  </a></div>
+                <div class="col-sm-4"> <a href="https://github.com/bukkicsilla/Remember-Pattern-Game" target="_blank"><img src="images/remember.png" class="img-circle" alt="Remember Pattern"/></a>
+                </div>
+                <div class="col-sm-4"><a href="https://github.com/bukkicsilla/AM" target="_blank"><img src="images/am.png" class="img-circle" alt="Actor Movie"/></a>
+                </div>
+            </div>
+            
+        
+        <hr/>
         <h2> Web Application</h2>
         <h3> Flask</h3>
         <a href='https://csillabukki.herokuapp.com/' target="_blank"> Personal Webpage </a> <br/>
@@ -48,5 +68,7 @@
         <a href='https://csillabukki.herokuapp.com/piano' target="_blank"> Piano Practice </a>
         <h2> Github </h2>
         <a href='https://github.com/bukkicsilla' target="_blank"> Click me! </a>
+        </div>
+        
     </body>
 </html>
