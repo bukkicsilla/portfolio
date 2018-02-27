@@ -1,12 +1,23 @@
 body{
   //padding: 50px;
   background-color: #aabbcc;  
+  background-color: #a1cae8;    
   font:24px "Lucida Grande", Helvetica, Arial, sans-serif;
   
 }
-h2, a, #android{
+.apps{
+    font-size: 32px;
+}
+ a, .apps, .mm{
   color: #000088;
   font-family: fantasy;
+}
+a:visited  {
+    
+    text-decoration: none;
+}
+.mm{
+    font-size: 120%;
 }
 p, h1 {
     color: blue;
@@ -27,10 +38,10 @@ container {
     width: 100%;
 }
 .container{
-     width: 90%;
+     width: 80%;
 }
 img{
     height: 120px;
     width:auto;
-    padding-left: 40px;
+    align-content: center;
 }
