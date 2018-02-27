@@ -15,7 +15,7 @@ p, h1 {
 
 .jumbotron{
  background-color: lightgray;
- background-image: url(../images/nature.jpg);
+ background-image: url(../images/hiking5.jpg);
  background-position: 0% 0%;
  background-size: cover;
  background-repeat: no-repeat;
@@ -28,4 +28,9 @@ container {
 }
 .container{
      width: 90%;
+}
+img{
+    height: 120px;
+    width:auto;
+    padding-left: 40px;
 }
