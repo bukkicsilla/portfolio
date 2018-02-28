@@ -1,14 +1,17 @@
 body{
   //padding: 50px;
   background-color: #aabbcc;  
-  background-color: #a1cae8;    
+  background-color: #a1cae8;
+  /*background-image: url(..//images/hiking5.jpg);
+  background-repeat: none;
+  opacity: 0.74;*/
   font:24px "Lucida Grande", Helvetica, Arial, sans-serif;
   
 }
 .apps{
     font-size: 32px;
 }
- a, .apps, .mm{
+ a, .apps, .mm, p{
   color: #000088;
   font-family: fantasy;
 }
@@ -16,10 +19,13 @@ a:visited  {
     
     text-decoration: none;
 }
+/*.text{
+    color: aliceblue;
+}*/
 .mm{
     font-size: 120%;
 }
-p, h1 {
+ h1 {
     color: blue;
     font-size: 36px;
 }
@@ -34,11 +40,17 @@ p, h1 {
  color: lightgreen;
  font-family: cursive;
 }
+
+footer{
+    padding:50px;
+    background-image: url(../images/hiking2.jpg);
+}
 container {
     width: 100%;
 }
 .container{
      width: 80%;
+    padding-bottom: 50px;
 }
 img{
     height: 120px;
