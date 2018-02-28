@@ -19,11 +19,22 @@ a:visited  {
     
     text-decoration: none;
 }
+a:hover{
+    text-decoration: none;
+    color: aliceblue;
+}
+a.ff:hover{
+    color: lightgreen;
+}
 /*.text{
     color: aliceblue;
 }*/
 .mm{
     font-size: 120%;
+}
+.ff{
+    font-size: 150%;
+    color:aliceblue;
 }
  h1 {
     color: blue;
