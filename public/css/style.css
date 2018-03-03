@@ -15,7 +15,7 @@ body{
  a, .apps, .mm, p{
   color: #000088;
   font-family: fantasy;
-  font-family: Times New Roman;
+  /*font-family: Times New Roman;*/
 }
 a:visited  {
     
