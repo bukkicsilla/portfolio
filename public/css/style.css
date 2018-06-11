@@ -75,3 +75,10 @@ img{
     width:auto;
     align-content: center;
 }
+
+img#netf{
+    height: 150px;
+    width:auto;
+    align-content: center;
+    border: 2px darkblue solid;
+}
